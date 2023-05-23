@@ -1,0 +1,54 @@
+.App{
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.App input{
+  margin: 40px auto;
+  border: none;
+  border-radius: 1rem;
+  width: 80%;
+  height: 30px;
+  padding: 5px 20px;
+  box-shadow: 0px 0px 3px 0px #000000;
+  text-align: center;
+  max-width: 600px;
+}
+
+.App input:hover{
+  box-shadow: 0px 0px 6px 0px #00fbff;
+  border: 0px;
+}
+.App input:focus{
+  box-shadow: 0px 0px 6px 0px #00fbff;
+}
+.App input:focus-visible{
+  box-shadow: 0px 0px 6px 0px #00fbff;
+  border: 0px;
+  outline: none;
+}
+
+.styles-wrap{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.styles-box{
+  text-align: start;
+  width: 90%;
+  min-height: 34px;
+  box-shadow: 0px 0px 6px 0px black;
+  border-radius: 1rem;
+  padding: 10px 20px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+@media (min-width: 768px){
+  .styles-box{
+    width: 45%;
+  }
+}
